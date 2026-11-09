@@ -10,3 +10,19 @@ header{flex-wrap:wrap}h3{font-size:19px;margin:28px 0 10px;line-height:1.5}
 .faq dt{font-weight:600;margin:24px 0 8px}.faq dd{margin:0 0 20px;overflow-wrap:anywhere}
 .contact{border-radius:12px}nav a{overflow-wrap:anywhere}
 @media(max-width:480px){header{gap:12px}.brand{font-size:22px}.app-section{padding:18px;margin:24px 0}.lead{font-size:17px}nav{flex-wrap:wrap}}
+
+/* Bilingual navigation: preserve the existing palette, type and content width. */
+.header-controls{display:flex;align-items:center;flex-wrap:wrap;gap:12px}
+.header-controls nav{align-items:center;flex-wrap:wrap}
+.header-controls a{display:inline-flex;align-items:center;justify-content:center;min-height:44px;padding:4px 8px}
+.language-switch{gap:4px;padding:3px;border:1px solid #d7e2ec;border-radius:12px;background:#e7f1f9}
+.language-switch a{text-decoration:none;border-radius:8px}
+.language-switch a[aria-current="page"]{background:#fff;color:#152d4b;font-weight:600}
+.spec-summary{background:#f4f8fc;border:1px solid #d7e2ec;border-radius:12px;padding:20px;margin:24px 0}
+.spec-summary .eyebrow{margin-top:0}.spec-summary h3{margin-top:6px}
+.scope-note{padding:14px 16px;border-left:3px solid #8db4d3;background:#f4f8fc}
+.skip-link{position:absolute;top:8px;left:16px;padding:8px 16px;background:#fff;z-index:5;transform:translateY(-160%)}
+.skip-link:focus{transform:translateY(0)}
+h1,h2,h3,li,dd,a{overflow-wrap:anywhere}
+[id]{scroll-margin-top:24px}
+@media(max-width:600px){.header-controls{width:100%;gap:8px;justify-content:space-between}.site-navigation{gap:8px}.language-switch{font-size:14px}.spec-summary{padding:16px}.app-section{min-width:0}}

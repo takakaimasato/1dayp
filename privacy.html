@@ -1,11 +1,18 @@
 <!doctype html><html lang="ja">
-<head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>プライバシーポリシー | アプリサポート</title><link rel="stylesheet" href="style.css">
-</head>
-<body>
+<head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>プライバシーポリシー | アプリサポート</title><link rel="stylesheet" href="style.css">
+<link rel="alternate" hreflang="ja" href="privacy.html"><link rel="alternate" hreflang="en" href="en/privacy.html">
+<script src="language.js" defer></script></head>
+<body><a class="skip-link" href="#main">本文へ移動</a>
 <header><a class="brand" href="index.html">App Support</a>
-<nav aria-label="サイト案内"><a href="index.html">サポート</a><a href="privacy.html">プライバシー</a></nav>
+<div class="header-controls">
+<nav class="site-navigation" aria-label="サイト案内"><a href="index.html">サポート</a><a href="privacy.html">プライバシー</a></nav>
+<nav class="language-switch" aria-label="表示言語">
+<a href="privacy.html" lang="ja" hreflang="ja" data-language-link aria-current="page">日本語</a>
+<a href="en/privacy.html" lang="en" hreflang="en" data-language-link>English</a>
+</nav></div>
 </header>
-<main>
+<main id="main">
 <p class="eyebrow">PRIVACY POLICY</p>
 <h1>プライバシーポリシー</h1>
 <p>共通ページの最終更新：2026年10月14日</p>
@@ -13,6 +20,18 @@
 <article id="1dayp" class="app-section"><h2>1Dayp</h2>
 <p>最終更新：2026年10月18日<br>運営者：1dayp サポート</p>
 <p>本ポリシーは、写真日記アプリ「1dayp」と本サポートサイトにおける情報の取り扱いを説明します。</p>
+<section id="current-spec" class="spec-summary" aria-labelledby="current-spec-title">
+<p class="eyebrow">1DAYP · 現在の仕様</p>
+<h3 id="current-spec-title">日記のデータとアクセス許可</h3>
+<p>日英対応・仕様補足：2026年11月9日。本補足は現行の通常の日記機能と日英対応版を説明します。従来の日本語ポリシーと、旧テスト版の利用者向けの説明は以下に残しています。</p>
+<ul>
+<li>写真・撮影日・ひとこと・手動で選択した天気や気分・下書き・月刊誌の編集情報・言語設定は、端末内で扱います。通常の日記を運営者のサーバーやFirebaseへ送信しません。</li>
+<li>撮影にはカメラへの許可を求めます。現在の通常の日記機能は、写真ライブラリの読み込みや、写真アプリへの自動追加を行いません。マイク・位置情報も使用しません。</li>
+<li>Fever Time・写真共有・QR招待・クラウドのサインイン・アプリ内課金は現在提供していません。第3節と第5節のクラウドの説明は、旧テスト版に関するものです。</li>
+<li>問い合わせにメールを送る場合はGmail、本サイトを閲覧する場合はGitHub Pagesで情報が扱われます。端末内の日記の扱いとは区別して、第4節・第6節をご確認ください。</li>
+</ul>
+<p>端末やiCloud等のバックアップは、OS・端末の設定による別の仕組みです。アプリ独自のクラウド同期・運営者によるバックアップサービスを提供するものではありません。大切な記録がある場合、アプリを削除せずにバックアップの状態をご確認ください。</p>
+</section>
 <section aria-label="今回の公開版について"><h3>今回の公開版について</h3>
 <p>App Storeへ提出するVersion 1.0（Build 9以降）は、カメラ・思い出・MONTHLYを提供する端末内の写真日記です。Fever Time、共有写真、QR招待、クラウドアカウントの作成・サインイン、アプリ内課金は提供しません。</p>
 <p>この版の日記機能では、写真・メモ・選択した天気や気分などを運営者やFirebaseへ送信しません。広告や追跡目的の解析も行いません。お問い合わせメールや本Webサイトの情報の取り扱いは、端末内の日記とは別に第4節・第6節で説明します。</p>
@@ -24,6 +43,7 @@
 </section>
 <section>
 <h3>2. 端末へのアクセス許可</h3>
+<p class="scope-note">現在の通常の日記機能で求めるのは撮影のためのカメラ許可です。下記の写真アプリへの書き出しは、現在無効な旧Fever機能に関する説明です。旧機能の書き出し処理は写真を追加するための許可を使うもので、写真ライブラリ全体を読み込むためのものではありません。</p>
 <p>写真撮影にカメラを使用します。写真アプリへ画像を書き出す際は必要な権限を求めます。権限はiPhoneの設定から変更できます。権限を許可しない場合、対応する機能は利用できません。</p>
 </section>
 <section>
@@ -45,6 +65,7 @@
 <h3>5. 保存・削除とバックアップ</h3>
 <p>アプリ内に保存した写真日記の記録は、アプリの削除により端末から削除されます。iOSの「Appを取り除く」はデータを残す操作であり、削除とは異なります。写真アプリへ保存したコピーや、端末・iCloud等のバックアップは別に管理されます。バックアップの取り扱いは端末の設定とサービス提供者の条件に従います。</p>
 <p>運営者は端末内の記録を遠隔で閲覧・削除・復元することはできません。</p>
+<p class="scope-note">以下の共有アルバム・クラウドアカウントに関する段落は旧テスト版の説明です。現在の通常の日記は、これらのクラウド機能を提供していません。</p>
 <p>共有アルバムの閲覧期間はFever終了後30日間です。期間終了後、定期処理により共有写真と関連するセッション情報を順次削除します。ブロックや本人確認・購入確認に必要な記録はアルバムとは別に保持します。</p>
 <p>クラウド機能のアカウント削除はFever画面の「Feverのクラウドアカウントを削除」から行い、確認とApple再認証の後に処理します。本人認証の失効とFirebaseユーザー削除に加え、本人の共有写真・参加記録などを削除します。ホストが削除するとそのホストの共有Fever全体が削除対象となり、他の参加者も閲覧できなくなります。購入記録の一部は不正な再利用を防ぐため無効化された状態で残ります。端末内の日記と写真アプリへ書き出したコピーの扱いは別です。</p>
 <p>アプリを端末から削除しただけではクラウドアカウントの削除にはなりません。写真を端末の写真アプリへ保存した参加者のコピーを、運営者が遠隔で削除することはできません。クラウド上で削除したオブジェクトも、サービスの復旧用設定により最大7日間保管される場合があります。技術ログやお問い合わせ情報はそれぞれの目的とサービス設定に必要な期間保管します。</p>
@@ -88,5 +109,4 @@
 </section>
 </main>
 <footer>App Support &amp; Privacy · 1Dayp / PetaCal</footer>
-</body>
-</html>
+</body></html>
